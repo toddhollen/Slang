@@ -1,0 +1,262 @@
+/*
+
+Styling for all Games Pages
+
+*/
+
+body{
+	background: black;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+ }
+
+.container, header{
+	width: 1052px;
+	margin: 32px auto;
+}
+
+.container{
+	text-align: center;
+}
+
+.menu{
+	position: relative;
+	display: inline-block;
+	font-size: .9em;
+	line-height: 1.6;
+	vertical-align: 12px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-size: 14px;
+}
+
+.menu a:hover{
+	border-top: 2px solid #00ABD8;
+	}
+
+.sub_banner{
+	text-align: center;
+	background-color: #353535;
+	box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.1) inset;
+	min-height: 10px;
+	padding-top: 14px;
+	padding-right: 5px;
+	padding-bottom: 17px;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+.sub.banner h2{
+	font-size: 32px;
+	line-height: 1.4;
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+
+h1{
+	font-size: 3em;
+	color: white;
+	}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.4em;
+	color:#00abd8;
+}
+
+h4{
+	font-size: 2em;
+	text-decoration: underline;
+	color: white;
+}
+
+h5{
+
+	font-size: 1.2em;
+
+}
+
+a{
+	color: #00abd8;
+	text-decoration: none;
+}
+
+
+/*
+
+Beauty or Bender Game
+
+*/
+
+.title{
+	margin-top: 40px;
+}
+
+.instructions {
+	margin: 20px 0px;
+}
+
+button{
+	width: 300px;
+	height: 50px;
+	font-size: 2em;
+	font-weight: bold;
+	background-color: #00abd8;
+	border-radius: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.choices button{
+
+	height: 70px;
+	margin: 4px;
+
+}
+
+.end-button{
+	width: 300px;
+	height: 50px;
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+button:hover{
+	box-shadow: 0px 0px 100px #00abd8;
+	border-radius: 10px;
+}
+
+.cover img{
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+.choices img, #glossary img{
+	height: 250px;
+	margin: 2px auto 2px auto;
+}
+
+
+.question{
+	margin: 10px;
+	}
+
+
+.slang{
+	margin-top: 20px;
+	color: #00abd8;
+	text-decoration: none;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+#intro{
+	display: block;
+}
+
+.note{
+
+	margin-top: 50px;
+
+}
+
+#game{
+	display: none;
+}
+
+#answer{
+	display: none;
+}
+
+.return{
+	display: block;
+	margin: 20px auto;
+}
+
+.correct{
+	display: none;
+	margin: 20px;
+	}
+
+.correct h1, .incorrect h1, .incorrect h2{
+	margin: 20px;
+}
+
+.correct-ans{
+
+	color: #00abd8;
+
+}
+
+.correct-image{
+	height: 400px;
+}
+
+.correct-description{
+
+	width: 400px;
+	text-align: left;
+	margin: 10px auto;
+
+}
+
+.incorrect{
+	display: none;
+	margin: 20px;
+}
+
+
+#end{
+	display: none;
+	margin-top: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#end h1{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+.victory{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 350px;
+}
+
+.store{
+	
+	border-top: 2px solid white;
+	margin-top: 40px;
+	padding-top: 10px;
+	
+}
+
+
+.store-img{
+
+	height: 220px;
+	margin: 0px auto;
+
+}
+
+.cnt_horizontal{
+
+	height: 100px;
+	margin: 20px auto 0px auto;
+
+}
+
+.review{
+	border-top: 2px solid white;
+	margin-top: 12px;
+	padding-top: 10px;
+}
+
