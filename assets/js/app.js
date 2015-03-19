@@ -3,8 +3,8 @@
     currentQuestionNum = 0;
 
     questions = [{
-        question: "Bucket or Lid",
-        choices: ["Helmet","The Goal", "The Bench", "The Rink"],
+        question: "Bucket/Lid",
+        choices: ["Helmet", "The Goal", "The Bench", "The Rink"],
         qNum : 0,
         correct : 0,
         correctImage : ["assets/images/gameanswers/helmet.jpg"],
@@ -15,73 +15,193 @@
         choices: ["Zamboni","Skates", "Stick", "Hockey Groupies"],
         qNum : 1,
         correct : 1,
-        correctImage : ["assets/images/gameanswers/helmet.jpg"],
+        correctImage : ["assets/images/gameanswers/skates.jpg"],
         correctDescription:'Tie on your blades and let\'s hit the ice.'
         },
         {
-        question: "Goal Scored",
-        choices: ["assets/images/refgamequestions/timeout.jpg","assets/images/refgamequestions/roughing.jpg", "assets/images/refgamequestions/offside.jpg", "assets/images/refgamequestions/goal.jpg"],
+        question: "Beauty",
+        choices: ["Hockey Groupie", "A sick goalie mask", "An impressive play OR a player that’s talented both on the ice and off.", "Freshly Zambonied Ice" ],
         qNum : 2,
-        correct : 3,
-        correctImage : ["assets/images/refgameanswers/goal.jpg"],
-        correctDescription:'A goal is scored when the puck completely crosses the goal line. A puck that stops on the goal line or does not completely cross the line is not counted.'
+        correct : 2,
+        correctImage : ["assets/images/gameanswers/beauty.jpg"],
+        correctDescription:'That bar-down snipe was a real beauty. <br><br>That guy has sick flow and greasy hands, he is a beuaty.'
         },
         {
-        question: "High Sticking",
-        choices: ["assets/images/refgamequestions/high.jpg","assets/images/refgamequestions/kneeing.jpg", "assets/images/refgamequestions/ioffside.jpg", "assets/images/refgamequestions/holding-stick.jpg"],
+        question: "Flow",
+        choices: ["Great skating technique", "Momentum durring a game", "Beers in the parking lot after the game", "Great hockey hair, typically long that flows out of the helmet when the player skates."],
         qNum : 3,
-        correct : 0,
-        correctImage : ["assets/images/refgameanswers/high.jpg"],
-        correctDescription:'High sticking can either be called as a penalty or an infraction. A penalty is called when the stick contacts another player above the shoulder. If the player plays the puck above the shoulder during game play, the play is stopped. If a goal is scored after being hit by a stick higher than the cross-bar, the goal is not allowed (the height varies depending on the league).'
+        correct : 3,
+        correctImage : ["assets/images/gameanswers/flow.jpg"],
+        correctDescription:'Check out that beauty\'s flow.' 
         },
         {
-        question: "Delayed Offsides",
-        choices: ["assets/images/refgamequestions/cross.jpg","assets/images/refgamequestions/offside.jpg", "assets/images/refgamequestions/interference.jpg", "assets/images/refgamequestions/misconduct.jpg"],
+        question: "Greasy",
+        choices: ["A bad player","Awesome moves or hands", "Barry Melrose's hair", "A freshly waxed stick"],
         qNum : 4,
         correct : 1,
-        correctImage : ["assets/images/refgameanswers/offside.jpg"],
-        correctDescription:'Offsides occurs when an offensive player enters his or her offensive zone (crosses the blue line), before the puck. If the play is in the offensive zone, but the puck leaves the zone and re-enters, the referee will raise one arm to indicate a delayed offside. If an offensive player touches the puck before all players on his team leave the zone, the play will be stopped with a faceoff outside of the blue line.'
+        correctImage : ["assets/images/gameanswers/greasy.gif"],
+        correctDescription:'Did you see that penelty shot? That guy is greasy! <br><br>(Also, yes, Melrose\'s hair is greasy. And sick flow. But that isn\'t the answer we were looking for.)'
         },
         {
-        question: "Roughing",
-        choices: ["assets/images/refgamequestions/fighting.jpg","assets/images/refgamequestions/roughing.jpg", "assets/images/refgamequestions/slashing.jpg", "assets/images/refgamequestions/pshot.jpg"],
+        question: "Gongshow",
+        choices: ["Between period entertainment","A complete mess of a game or the sheneigans that take place after the game.", "When someone scores a hat trick", "A fight"],
         qNum : 5,
         correct : 1,
-        correctImage : ["assets/images/refgameanswers/roughing.jpg"],
-        correctDescription:'Roughing varies depending on the league. Roughing is typically called for an avoidable check after the play has stopped or after a player is no longer in possession of the puck. It can also be called if a player punches another. In the NHL, a punch is usually considered a minor roughing penalty, however, in youth hockey, a punch is usually considered a major (5 minute) penalty for Fighting.'
+        correctImage : ["assets/images/gameanswers/gongshow1.gif"],
+        correctDescription:'That game/party was a gongshow! Where did that donkey come from?'
         },
         {
-        question: "Spearing",
-        choices: ["assets/images/refgamequestions/timeout.jpg","assets/images/refgamequestions/tripping.jpg", "assets/images/refgamequestions/hooking.jpg", "assets/images/refgamequestions/spearing.jpg"],
+        question: "Dangle/Deke",
+        choices: ["When a player forgets to wear a cup.", "A big save", "A great pass", "A variety of moves where a player fakes out a goalie or player"],
         qNum : 6,
         correct : 3,
-        correctImage : ["assets/images/refgameanswers/spearing.jpg"],
-        correctDescription:'Spearing occurs when a player attempts to stab a player with the blade of his stick and can be called whether contact is made or not. This is a serious penalty and results in a major penalty (5 minutes) and game misconduct according to USA Hockey rules for youth leagues. In the NHL, a double-minor (two 2 minutes consecutive penalties) is imposed on players who attempt to spear, but do not make contact. A major penalty and misconduct are imposed for contact. Players may also face other disciplinary actions such as fines and suspensions.'
+        correctImage : ["assets/images/gameanswers/dangle.gif"],
+        correctDescription:'That was a beauty dangle. I call it the \'Tripple deke.\' <br><br>(Not to be confused with a "danlger," which is the plastic throat guard some goalies attach to their buckets.)'
         },
         {
-        question: "Washout",
-        choices: ["assets/images/refgamequestions/fighting.jpg","assets/images/refgamequestions/washout.jpg", "assets/images/refgamequestions/high.jpg", "assets/images/refgamequestions/spearing.jpg"],
+        question: "Pillows",
+        choices: ["Goalie Leg Pads"],
         qNum : 7,
         correct : 1,
-        correctImage : ["assets/images/refgameanswers/washout.jpg"],
-        correctDescription:'A signal used to negate a delayed call, such as when players touch up after a delayed offsides is signaled. This allows play to continue without a stoppage. It is also used to signal "No Goal" if the puck fails to completely cross the line.'
+        correctImage : ["assets/images/ameanswers/pillows.jpg"],
+        correctDescription:'A big save off the pillows!'
         },
         {
-        question: "Hand Pass",
-        choices: ["assets/images/refgamequestions/holding.jpg","assets/images/refgamequestions/kneeing.jpg", "assets/images/refgamequestions/ioffside.jpg", "assets/images/refgamequestions/hand.jpg"],
+        question: "Twig",
+        choices: ["A hockey Stick"],
         qNum : 8,
         correct : 3,
-        correctImage : ["assets/images/refgameanswers/hand.jpg"],
-        correctDescription:'Players are allowed to stop or bat the puck out of the air or move the puck along the ice with an open hand. They can pass the puck to a teammate as long as both are in their defensive zone. If a player directs the puck to a teammate outside of the defensive zone, there is a stoppage of play and a faceoff. A minor penalty (either "delay of game" or "handling the puck" can be imposed if a player, other than the goalie, closes his hand on the puck and does not immediately place it on the ice.'       },
+        correctImage : ["assets/images/gameanswers/twig.gif"],
+        correctDescription:''
+        },
         {
-        question: "Misconduct",
-        choices: ["assets/images/refgamequestions/misconduct.jpg","assets/images/refgamequestions/interference.jpg", "assets/images/refgamequestions/roughing.jpg", "assets/images/refgamequestions/slashing.jpg"],
+        question: "Where Grandma Keeps the Peanut Butter",
+        choices: ["A goal scored in the top part of the net."],
         qNum : 9,
         correct : 0,
-        correctImage : ["assets/images/refgameanswers/misconduct.jpg"],
-        correctDescription:'A misconduct penalty is the removal of a player from from the ice for 10 minutes or for the remainder of the game. The player is replaced on the ice, so the team is not shorthanded during the duration, unless the misconduct occurred with another minor or major penalty. Goalies do not serve misconducts, the penalty is served by another teammate. And any coaches or staff given a misconduct cannot be on the bench or direct the team play. Misconducts are imposed for a long list of infractions, but are generally for unsportsmanlike behavior, such as arguing with the referee or intentionally breaking one\'s stick.'
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'She put that one top shelf, where grandma keeps the peanut butter!'
         },
-
+        {
+        question: "Chirp",
+        choices: ["Trash talking"],
+        qNum : 10,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:''
+        },
+        {
+        question: "Donnybrook",
+        choices: ["A Fight"],
+        qNum : 11,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:''
+        },
+        {
+        question: "Goon",
+        choices: ["A team's enforcer/ a person whose primary role is to fight to protect his teammates"],
+        qNum : 12,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:''
+        },
+        {
+        question: "Bender/ Duster/ Pylon",
+        choices: ["A low skilled player"],
+        qNum : 13,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'Look at this guy, what a duster. <br<br>Bender=Someone whose ankles bend in when he or she skates. <br> Duster=Someone who collects dust sitting on the bench. Pylon= Someone so slow everyone just skates right around him or her.'
+        },
+        {
+        question: "Bunny/Puck Bunny/Puck",
+        choices: ["A (usually derogotory) term for a hockey groupie"],
+        qNum : 14,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'That puck bunny has dated the whole team. <br><br> (Note: Just because a girl likes to play or watch hockey doesn\'t make her a bunny.)'
+        },
+        {
+        question: "Biscuit",
+        choices: ["The Puck"],
+        qNum : 15,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'Dish the biscuit!'
+        },
+        {
+        question: "Clapper",
+        choices: ["A slapshot/very hard shot"],
+        qNum : 16,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'Bet his ears are ringing after taking that clapper to the bucket.'
+        },
+        {
+        question: "Bar Down",
+        choices: ["A shot that deflects into the net off of the crossbar."],
+        qNum : 17,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'She went bar down on that clapper!'
+        },
+        {
+        question: "Barn",
+        choices: ["Ice Rick"],
+        qNum : 18,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'Goin\' down to the barn to play some hockey.' 
+        },
+        {
+        question: "Celly",
+        choices: ["A celebration"],
+        qNum : 19,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'He topped off that beauty goal with a sweet celly.'
+        },
+        {
+        question: "The Show",
+        choices: ["The NHL"],
+        qNum : 20,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'Every hockey player dreams of going to the The Show.'
+        },
+        {
+        question: "Sauce",
+        choices: ["A pass that goes through the air and hits the ice right before hitting the teammate\'s stick tape."],
+        qNum : 21,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'He put it where grandma puts the peanut butter after a greasy sauce from winger.'
+        },
+        {
+        question: "Sieve",
+        choices: ["A bad goalie"],
+        qNum : 22,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:'That sieve is so full of holes he lets everything in.'
+        },
+        {
+        question: "Snipe",
+        choices: [""],
+        qNum : 23,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:''
+        },
+        {
+        question: "Gordie Howe Hat Trick",
+        choices: [""],
+        qNum : 24,
+        correct : 0,
+        correctImage : ["assets/images/gameanswers/"],
+        correctDescription:''
+        },
         ]
 
         //Global Variables
@@ -151,7 +271,8 @@ $(document).ready(function() {
             $("#answer, .correct, .incorrect, #game").hide();
             $("#end").show("slow");
             $('.number').append(numberCorrect);
-            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%2010%20referee%20calls%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
+            $('.outof').append(currentQuestionNum);
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20referee%20calls%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
         } else {
             showCurrentquestion(cqd);
         }
@@ -163,7 +284,7 @@ $(document).ready(function() {
         var currentItem;
          if(event.target.nodeName == 'A'){
             currentItem = event.target;
-            } else if(event.target.nodeName == 'IMG'){
+            } else if(event.target.nodeName == 'BUTTON'){
             currentItem = $(event.target).parent();
             } 
 
@@ -177,7 +298,7 @@ $(document).ready(function() {
 
             if (index == correct) {
                 $("#answer, .correct").show("slow");
-                $('.correct-ans').append(currentQuestionData.choices[correct]);
+                $('.correct-ans').append(cqd.choices[correct]);
                 $(".correct-image").attr('src', cqd.correctImage);
                 $(".correct-description").append(cqd.correctDescription);
                 $("#game").hide("slow"); 
@@ -186,12 +307,21 @@ $(document).ready(function() {
                 
             } else {
                 $("#answer, .incorrect").show("slow");
-                $('.correct-ans').append(currentQuestionData.choices[correct]);
+                $('.correct-ans').append(cqd.choices[correct]);
                 $(".correct-image").attr('src', cqd.correctImage);
                 $(".correct-description").append(cqd.correctDescription);
                 $("#game").hide("slow"); 
                 ++currentQuestionNum;
             }
+    });
+
+    $('.exit').on('click', function(event) {
+        event.preventDefault();
+        $("#answer, .correct, .incorrect, #game").hide();
+            $("#end").show("slow");
+            $('.number').append(numberCorrect);
+            $('.outof').append(currentQuestionNum);
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20referee%20calls%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
     });
 
 });
