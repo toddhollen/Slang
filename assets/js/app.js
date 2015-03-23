@@ -8,7 +8,7 @@
         qNum : 0,
         correct : 0,
         correctImage : ["assets/images/gameanswers/helmet.gif"],
-        correctDescription: 'Strap on your bucket so you don\'t scramble your brains.'
+        correctDescription: '&quot;Strap on your bucket so you don\'t scramble your brains.&quot;'
         },
         {
         question: "Blades",
@@ -16,7 +16,7 @@
         qNum : 1,
         correct : 1,
         correctImage : ["assets/images/gameanswers/skates.gif"],
-        correctDescription:'Tie on your blades and let\'s hit the ice.'
+        correctDescription:'&quot;Tie on your blades and let\'s hit the ice.&quot;'
         },
         {
         question: "Beauty",
@@ -24,7 +24,7 @@
         qNum : 2,
         correct : 2,
         correctImage : ["assets/images/gameanswers/beauty.gif"],
-        correctDescription:'That spin-0-rama was a real beauty. <br><br>That guy has sick flow and greasy hands, he is a beauty.'
+        correctDescription:'&quot;That spin-o-rama was a real beauty.&quot; <br><br>&quot;That guy has sick flow and greasy hands, he is a beauty.&quot;'
         },
         {
         question: "Flow",
@@ -32,7 +32,7 @@
         qNum : 3,
         correct : 3,
         correctImage : ["assets/images/gameanswers/flow.gif"],
-        correctDescription:'Check out that beauty\'s flow.' 
+        correctDescription:'&quot;Check out that beauty\'s flow.&quot;' 
         },
         {
         question: "Greasy",
@@ -40,7 +40,7 @@
         qNum : 4,
         correct : 1,
         correctImage : ["assets/images/gameanswers/greasy.gif"],
-        correctDescription:'Did you see that penelty shot? That guy is greasy! <br><br>(Also, yes, Melrose\'s hair is greasy. And sick flow. But that isn\'t the answer we were looking for.)'
+        correctDescription:'&quot;Did you see that penelty shot? That guy is greasy!&quot; <br><br>(Also, yes, Melrose\'s hair is greasy. And sick flow. But that isn\'t the answer we were looking for.)'
         },
         {
         question: "Gongshow",
@@ -48,7 +48,7 @@
         qNum : 5,
         correct : 1,
         correctImage : ["assets/images/gameanswers/gongshow1.gif"],
-        correctDescription:'That game/party was a gongshow! Where did that donkey come from?'
+        correctDescription:'&quot;That game/party was a gongshow! Where did that donkey come from?&quot;'
         },
         {
         question: "Dangle/Deke",
@@ -56,7 +56,7 @@
         qNum : 6,
         correct : 3,
         correctImage : ["assets/images/gameanswers/deke.gif"],
-        correctDescription:'That was a beauty dangle. I call it the \'Triple Deke.\' <br><br>(Not to be confused with a "dangler," which is the plastic throat guard some goalies attach to their buckets.)'
+        correctDescription:'&quot;That was a beauty dangle.&quot; <br>&quot;I call it the \'Triple Deke.\'&quot; <br><br>(Not to be confused with a "dangler," which is the plastic throat guard some goalies attach to their buckets.)'
         },
         {
         question: "Pillows",
@@ -64,7 +64,7 @@
         qNum : 7,
         correct : 0,
         correctImage : ["assets/images/gameanswers/pillows.gif"],
-        correctDescription:'A big save off the pillows!'
+        correctDescription:'&quot;A big save off the pillows!&quot;'
         },
         {
         question: "Twig",
@@ -72,7 +72,7 @@
         qNum : 8,
         correct : 3,
         correctImage : ["assets/images/gameanswers/twig.gif"],
-        correctDescription:'Look at the flex in his twig when he took that clapper!'
+        correctDescription:'&quot;Look at the flex in his twig when he took that clapper!&quot;'
         },
         {
         question: "Where Grandma Keeps the Peanut Butter",
@@ -80,7 +80,7 @@
         qNum : 9,
         correct : 0,
         correctImage : ["assets/images/gameanswers/grandma.gif"],
-        correctDescription:'She put that one top shelf, where grandma keeps the peanut butter!'
+        correctDescription:'&quot;She put that one top shelf, where grandma keeps the peanut butter!&quot;'
         },
         {
         question: "Chirp",
@@ -88,7 +88,7 @@
         qNum : 10,
         correct : 2,
         correctImage : ["assets/images/gameanswers/chirp.gif"],
-        correctDescription:'If he keeps chirping the other team\'s goalie like that someone is going to lay him out.'
+        correctDescription:'&quot;If he keeps chirping the other team\'s goalie like that someone is going to lay him out.&quot;'
         },
         {
         question: "Donnybrook",
@@ -96,15 +96,15 @@
         qNum : 11,
         correct : 1,
         correctImage : ["assets/images/gameanswers/donnybrook.gif"],
-        correctDescription:'Haven\'t seen a donnybrook like that since Tie Domi and Bob Probert in \'92!'
+        correctDescription:'&quot;Haven\'t seen a donnybrook like that since Tie Domi and Bob Probert!&quot;'
         },
         {
         question: "Goon",
-        choices: ["A dumb player", "The referee", "A fan who get's too drunk.", "A team's enforcer/ a person whose primary role is to fight to protect his teammates"],
+        choices: ["A dumb player", "The referee", "A fan who get's too drunk.", "A team's enforcer/ a person whose primary role is to fight to protect his teammates."],
         qNum : 12,
         correct : 3,
         correctImage : ["assets/images/gameanswers/goon.gif"],
-        correctDescription:'The goons are going at it after a missed call on a cheap hit.'
+        correctDescription:'&quot;The goons are going at it after a missed call on a cheap hit.&quot;'
         },
         {
         question: "Bender/ Duster/ Pylon",
@@ -112,15 +112,15 @@
         qNum : 13,
         correct : 0,
         correctImage : ["assets/images/gameanswers/bender.gif"],
-        correctDescription:'Look at this guy, what a duster. <br<br>Bender=Someone whose ankles bend in when he or she skates. <br>Duster=Someone who collects dust sitting on the bench. <br>Pylon= Someone so slow everyone just skates right around him or her.'
+        correctDescription:'&quot;Look at this guy, what a duster.&quot; <br><br>Bender=Someone whose ankles bend in when he or she skates. <br>Duster=Someone who collects dust sitting on the bench. <br>Pylon= Someone so slow everyone just skates right around him or her.'
         },
         {
         question: "Bunny/Puck Bunny/Puck",
-        choices: ["Team mascot", "Good luck charm","A (usually derogatory) term for a hockey groupie", "Zamboni driver"],
+        choices: ["Team mascot", "Good luck charm","A usually derogatory term for a hockey groupie.", "Zamboni driver"],
         qNum : 14,
         correct : 2,
         correctImage : ["assets/images/gameanswers/bunny.jpg"],
-        correctDescription:'That puck bunny has dated the whole team. <br><br> (Note: Just because a girl likes to play or watch hockey doesn\'t make her a bunny.)'
+        correctDescription:'&quot;That puck bunny has dated the whole team.&quot; <br><br> (Note: Just because a girl likes to play or watch hockey doesn\'t make her a bunny.)'
         },
         {
         question: "Biscuit",
@@ -128,7 +128,7 @@
         qNum : 15,
         correct : 1,
         correctImage : ["assets/images/gameanswers/puck.gif"],
-        correctDescription:'Sauce the biscuit!'
+        correctDescription:'&quot;Sauce the biscuit!&quot;'
         },
         {
         question: "Clapper",
@@ -136,7 +136,7 @@
         qNum : 16,
         correct : 1,
         correctImage : ["assets/images/gameanswers/clapper.gif"],
-        correctDescription:'Bet his ears are ringing after taking that clapper to the bucket.'
+        correctDescription:'&quot;Bet his ears are ringing after taking that clapper to the bucket.&quot;'
         },
         {
         question: "Bar Down",
@@ -144,7 +144,7 @@
         qNum : 17,
         correct : 3,
         correctImage : ["assets/images/gameanswers/bardown.gif"],
-        correctDescription:'She went bar down on that clapper!'
+        correctDescription:'&quot;She went bar down on that clapper!&quot;'
         },
         {
         question: "Barn",
@@ -152,39 +152,39 @@
         qNum : 18,
         correct : 1,
         correctImage : ["assets/images/gameanswers/barn.jpeg"],
-        correctDescription:'Goin\' down to the barn to play some hockey.' 
+        correctDescription:'&quot;Goin\' down to the barn to play some hockey.&quot;' 
         },
         {
         question: "Celly",
         choices: ["A celebration after a goal", "A jersey", "The Zamboni", "Stick tape"],
         qNum : 19,
         correct : 0,
-        correctImage : ["assets/images/gameanswers/"],
-        correctDescription:'He topped off that beauty goal with a sweet celly.'
+        correctImage : ["assets/images/gameanswers/celly.gif"],
+        correctDescription:'&quot;He topped off that beauty goal with a sweet celly.&quot;'
         },
         {
         question: "The Show",
         choices: ["SportsCenter", "A big game", "The NHL", "A top player"],
         qNum : 20,
         correct : 2,
-        correctImage : ["assets/images/gameanswers/"],
-        correctDescription:'Every hockey player dreams of going to the The Show.'
+        correctImage : ["assets/images/gameanswers/nhl.gif"],
+        correctDescription:'&quot;Every hockey player dreams of going to the The Show.&quot;'
         },
         {
         question: "Sauce",
         choices: ["Beer", "A pass that goes through the air and hits the ice right before hitting the teammate\'s stick tape.", "A great goal", "A fast skater"],
         qNum : 21,
         correct : 1,
-        correctImage : ["assets/images/gameanswers/"],
-        correctDescription:'He put it where grandma puts the peanut butter after a greasy sauce from winger.'
+        correctImage : ["assets/images/gameanswers/sauce.gif"],
+        correctDescription:'&quot;He put it where grandma puts the peanut butter after a greasy sauce from his winger.&quot;'
         },
         {
         question: "Sieve",
         choices: ["A bad goalie", "The netting on the goal", "The Zamboni", "The coach"],
         qNum : 22,
         correct : 0,
-        correctImage : ["assets/images/gameanswers/"],
-        correctDescription:'That sieve is so full of holes; he lets everything in.'
+        correctImage : ["assets/images/gameanswers/sieve.gif"],
+        correctDescription:'&quot;That sieve is so full of holes; he lets everything in.&quot;'
         },
         {
         question: "Snipe",
@@ -192,15 +192,15 @@
         qNum : 23,
         correct : 3,
         correctImage : ["assets/images/gameanswers/snipe.gif"],
-        correctDescription:'He snipped that beauty bar down. Made the goalie into a real sieve.'
+        correctDescription:'&quot;He snipped that beauty bar down. Made the goalie into a real sieve.&quot;'
         },
         {
         question: "Gordie Howe Hat Trick",
         choices: ["Three Goals", "A goal, an assist, and fight in one game", "Three assists", "Three beers"],
         qNum : 24,
         correct : 1,
-        correctImage : ["assets/images/gameanswers/"],
-        correctDescription:'With a Gordie Howe Hat Trick, that beauty had a great game.'
+        correctImage : ["assets/images/gameanswers/gordie.jpeg"],
+        correctDescription:'&quot;With a Gordie Howe Hat Trick, that beauty had a great game.&quot;'
         },
         ]
 
@@ -272,7 +272,7 @@ $(document).ready(function() {
             $("#end").show("slow");
             $('.number').append(numberCorrect);
             $('.outof').append(currentQuestionNum);
-            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20referee%20calls%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
         } else {
             showCurrentquestion(cqd);
         }
@@ -300,7 +300,7 @@ $(document).ready(function() {
                 $("#answer, .correct").show("slow");
                 $('.correct-ans').append(cqd.choices[correct]);
                 $(".correct-image").attr('src', cqd.correctImage);
-                $(".correct-description").append(cqd.correctDescription);
+                $(".correct-description").append("Example: "+cqd.correctDescription);
                 $("#game").hide("slow"); 
                 numberCorrect++; 
                 ++currentQuestionNum;
@@ -309,7 +309,7 @@ $(document).ready(function() {
                 $("#answer, .incorrect").show("slow");
                 $('.correct-ans').append(cqd.choices[correct]);
                 $(".correct-image").attr('src', cqd.correctImage);
-                $(".correct-description").append(cqd.correctDescription);
+                $(".correct-description").append("Example: "+cqd.correctDescription);
                 $("#game").hide("slow"); 
                 ++currentQuestionNum;
             }
@@ -321,7 +321,7 @@ $(document).ready(function() {
             $("#end").show("slow");
             $('.number').append(numberCorrect);
             $('.outof').append(currentQuestionNum);
-            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20referee%20calls%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
     });
 
 });
