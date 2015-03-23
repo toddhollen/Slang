@@ -20,7 +20,7 @@
         },
         {
         question: "Beauty",
-        choices: ["Hockey Groupie", "A sick goalie mask", "An impressive play OR a player that’s talented both on the ice and off.", "Freshly Zambonied Ice" ],
+        choices: ["Hockey Groupie", "A sick goalie mask", "An impressive play OR a player that is talented both on the ice and off.", "Freshly Zambonied Ice" ],
         qNum : 2,
         correct : 2,
         correctImage : ["assets/images/gameanswers/beauty.gif"],
@@ -112,7 +112,7 @@
         qNum : 13,
         correct : 0,
         correctImage : ["assets/images/gameanswers/bender.gif"],
-        correctDescription:'&quot;Look at this guy, what a duster.&quot; <br><br>Bender=Someone whose ankles bend in when he or she skates. <br>Duster=Someone who collects dust sitting on the bench. <br>Pylon= Someone so slow everyone just skates right around him or her.'
+        correctDescription:'&quot;Look at this guy, what a duster.&quot; <br><br>Bender= Someone whose ankles bend in when he or she skates. <br>Duster= Someone who collects dust sitting on the bench. <br>Pylon= Someone so slow everyone just skates right around him or her.'
         },
         {
         question: "Bunny/Puck Bunny/Puck",
@@ -272,7 +272,7 @@ $(document).ready(function() {
             $("#end").show("slow");
             $('.number').append(numberCorrect);
             $('.outof').append(currentQuestionNum);
-            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http://goo.gl/NwgjI8%20via%20%40BandBhockey%20%23hockey");
         } else {
             showCurrentquestion(cqd);
         }
@@ -321,7 +321,7 @@ $(document).ready(function() {
             $("#end").show("slow");
             $('.number').append(numberCorrect);
             $('.outof').append(currentQuestionNum);
-            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http%3A%2F%2Fgoo.gl%2FhiIdXJ%20via%20%40BandBhockey%20%23hockey");
+            $(".tweet").attr( "href", "https://twitter.com/intent/tweet?text=I%20got%20"+numberCorrect+"%20out%20of%20"+currentQuestionNum+"%20hockey%20slang%20terms%20correct!%20How%20many%20can%20you%20get%3F%20http://goo.gl/NwgjI8%20via%20%40BandBhockey%20%23hockey");
     });
 
 });
