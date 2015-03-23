@@ -24,7 +24,7 @@
         qNum : 2,
         correct : 2,
         correctImage : ["assets/images/gameanswers/beauty.gif"],
-        correctDescription:'&quot;That spin-o-rama was a real beauty.&quot; <br><br>&quot;That guy has sick flow and greasy hands, he is a beauty.&quot;'
+        correctDescription:'&quot;That play was a beauty.&quot; <br><br>&quot;That guy has sick flow and greasy hands, he is a beauty.&quot;'
         },
         {
         question: "Flow",
